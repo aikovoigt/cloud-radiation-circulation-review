@@ -80,8 +80,6 @@ The CESM1.2 model data is from [Middlemas et al. (2019)](https://doi.org/10.1175
     cdo -fldmean -sellonlatbox,190,240,-5.2,5.2 piControl_r1i1p1-LR_echam6_BOT_mm_1850-2849.tsurf_temp2.nc piControl_r1i1p1-LR_echam6_BOT_mm_1850-2849.tsurf_temp2.nino34-fldmean.nc
     cdo -fldmean -sellonlatbox,190,240,-5.2,5.2 BOT_fixvar_random_1900-2100.tsurf_temp2.nc BOT_fixvar_random_1900-2100.tsurf_temp2.nino34-fldmean.nc
 
-The data is not included in the data tarball - to obtain the data for both models, please contact the corresponding authors of Middlemas et al. (2019) and Raedel et al. (2016). 
-
 ## Figures 5, 6 and 7: ./data/climatechange/
 
 **MPI-ESM-LR simulations: decomposition of total warming response into non-cloud and cloud-related changes**
